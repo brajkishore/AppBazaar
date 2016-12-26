@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+       <item android:title="@string/navPersonal">
+            <menu>
+                <group android:checkableBehavior="single"
+                    >
+            <item android:id="@+id/nav_wallet" android:icon="@android:drawable/ic_menu_camera"
+                android:title="@string/nav_wallet" />
+            <item android:id="@+id/nav_transaction" android:icon="@android:drawable/ic_menu_camera"
+                android:title="@string/nav_transaction" />
+                </group>
+            </menu>
+        </item>
+
+    <item android:title="@string/navOthers">
+        <menu>
+            <item android:id="@+id/nav_contactus" android:icon="@android:drawable/ic_menu_call"
+                android:title="@string/nav_contactus" />
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="@string/nav_share" />
+            <item android:id="@+id/nav_privacy_policy" android:icon="@android:drawable/ic_menu_agenda"
+                android:title="@string/nav_privacy_policy" />
+            <item android:id="@+id/nav_aboutus" android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/nav_aboutus" />
+        </menu>
+    </item>
+
+</menu>

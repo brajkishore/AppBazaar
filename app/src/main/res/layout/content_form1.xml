@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_form1"
+    tools:context="appbazaar.com.appbazaar.activities.Form1Activity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/form1Icon_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:text="Who are you ?"
+        android:layout_gravity="left"
+        android:textAllCaps="false"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.6"
+       android:weightSum="2"
+       android:orientation="horizontal"
+       >
+    <Button
+        android:id="@+id/form1Male_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:textAllCaps="false"
+        android:text="Male"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:theme="@style/myButtonTheme"
+        android:drawableLeft="@drawable/circlemale50"
+        android:drawablePadding="2dp"
+        />
+
+    <Button
+        android:id="@+id/form1Female_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="Female"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:theme="@style/myButtonTheme"
+        android:drawableLeft="@drawable/circlefemale50"
+        android:drawablePadding="2dp"
+
+        />
+    ></LinearLayout>
+
+    <TextView
+        android:id="@+id/form1Ret_tv"
+        android:layout_weight="0.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:text="Retailer"
+        android:textAllCaps="false"
+        android:layout_gravity="right"
+        android:clickable="true"
+        android:textColor="@color/teal200"
+        />
+</LinearLayout>
+
+</RelativeLayout>

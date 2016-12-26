@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/teal500</color>
+    <color name="colorSecondary">@color/teal400</color>
+    <color name="colorPrimaryDark">@color/teal700</color>
+    <color name="colorAccent">@color/tealA700</color>
+    
+    
+    
+    <color name="teal700">#00796B</color>
+    <color name="tealA100">#A7FFEB</color>
+    <color name="tealA400">#1DE9B6</color>
+    <color name="tealA700">#00BFA5</color>
+    <color name="teal500">#009688</color>
+    <color name="teal400">#26A69A</color>
+    <color name="teal50">#E0F2F1</color>
+    <color name="teal200">#80CBC4</color>
+    <color name="teal100">#B2DFDB</color>
+    <color name="white">#FFFFFF</color>
+    <color name="defaultInstructionTxtColor">#000000</color>
+    <color name="defaultInstructionHeadColor">@color/red500</color>
+    <color name="red500">#F44336</color>
+    <color name="red400">#EF5350</color>
+    <color name="red300">#E57373</color>
+
+    <color name="green500">#4CAF50</color>
+    <color name="green400">#66BB6A</color>
+    <color name="green700">#388E3C</color>
+    <color name="green900">#1B5E20</color>
+
+
+    <color name="gray300">#E0E0E0</color>
+    <color name="gray500">#9E9E9E</color>
+    <color name="gray50">#FAFAFA</color>
+    <color name="gray200">#EEEEEE</color>
+</resources>
+

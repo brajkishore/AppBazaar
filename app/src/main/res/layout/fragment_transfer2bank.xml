@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="appbazaar.com.appbazaar.fragments.TransferToBankFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="16dp"
+        >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wallet"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            >
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:layout_centerInParent="true"
+                android:background="@color/red500"
+                android:layout_alignParentTop="true"
+                android:id="@+id/wallet_iv"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Balance"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+
+                />
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/wallet"
+            android:id="@+id/t2bInfo_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="tranfer to bank will this much time.cbdsiisvn ucshush nscushuvs bufshfrsjdnjsjsfusfreuvd
+            svhfbdsvojevjvfjveurvherfevfe"
+            />
+
+        <Button
+            android:layout_below="@+id/t2bInfo_tv"
+            android:id="@+id/btn2T2BForm"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/normalBtnHeight"
+            android:text="Let's Transfer"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/normal_green_btn"
+            android:textColor="@color/white"
+             />
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_below="@+id/btn2T2BForm"
+            android:id="@+id/t2bTnCLink_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:text="tranfer to bank will this much time.cbdsiisvn ucshush nscushuvs bufshfr"
+            />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</ScrollView>
